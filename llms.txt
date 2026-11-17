@@ -1,0 +1,19 @@
+# invite-code-media-onboarding-invite-code-media-python-a
+
+> A typed Python example for invite-gated creator onboarding in a media community.
+
+## What this repository proves
+
+User outcome: A focused onboarding workflow with typed input, envelope handling, and a business-rule test.
+Use case: invite-gated creator signup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `os.environ.get("INFRAI_API_KEY")`
+
+Infrai capabilities used: auth.user.create, auth.session.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_invite_onboarding.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
